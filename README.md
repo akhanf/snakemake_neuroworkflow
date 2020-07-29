@@ -1,18 +1,17 @@
-# Snakemake workflow: `hcp_mmp_to_native`
-Snakemake workflow for generating hcp mmp 180 parcellation in subject native volumetric space
+# Snakemake workflow: `snakemake_neuroworkflow` 
+Template snakemake workflow for neuroimaging 
 
 Inputs:
 - participants.tsv with target subject IDs
-- For each target subject:
-  - Freesurfer processed data
+- bids folder
+  - other folder containing bids-like processed data
 
 Singularity containers required:
- - Freesurfer (for `mri_convert`, `mris_convert`, `mri_info`)
- - Connectome workbench
+ - khanlab/neuroglia-core:latest
 
 ## Authors
 
-* Ali Khan @akhanf 
+* Your name here @yourgithubid
 
 ## Usage
 
